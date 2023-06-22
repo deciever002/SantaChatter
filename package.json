@@ -1,7 +1,8 @@
 {
   "name": "chat-app",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://deciever002.github.io/SantaChatter",
+  "private": false,
   "dependencies": {
     "@emoji-mart/data": "^1.1.2",
     "@emoji-mart/react": "^1.1.1",
@@ -12,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "emoji-mart": "^5.5.2",
     "firebase": "^9.22.2",
+    "gh-pages": "^5.0.0",
     "install": "^0.13.0",
     "npm": "^9.7.1",
     "react": "^18.2.0",
@@ -25,6 +27,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

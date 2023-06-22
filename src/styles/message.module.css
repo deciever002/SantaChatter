@@ -16,6 +16,15 @@
     gap: 0.5em;
 }
 
+.recievedBy{
+    margin-top: 0.2em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5em;
+}
+
 .sendByName{
     color: black;
     font-size: 0.7em;

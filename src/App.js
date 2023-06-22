@@ -1,4 +1,4 @@
-import { Navigate, RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Navigate, RouterProvider, createHashRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Login from './pages/Login';
 import Register from "./pages/Register";
@@ -20,7 +20,7 @@ function App() {
 
   //used router to define routes
   //used auth context for protected routes
-  const router = createBrowserRouter([{
+  const router = createHashRouter([{
     path: '/',
     element: <Navbar />,
     children: [

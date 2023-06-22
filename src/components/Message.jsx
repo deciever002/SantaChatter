@@ -24,8 +24,8 @@ const Message = ({message}) => {
             {message.text}
           </p>}
           {message.img && <img height="200px" width="200px" style={{border: '1px solid black',borderRadius: '0.5em'}} src={message.img} alt=''/>}
-          <div className={styles.sendBy}>
-            <p className={styles.sendByName}><b>You</b></p>
+          <div className={message.senderId === currentUser.uid ? styles.sendBy : styles.recievedBy}>
+            <p className={styles.sendByName}><b>{message.senderId === currentUser.uid ? "You" : "Your best friend"}</b></p>
             <img src={message.senderId === currentUser.uid ? currentUser.photoURL : data.user.photoURL} className={styles.userImage} alt='UserPicture'/>
           </div>
         </div>
