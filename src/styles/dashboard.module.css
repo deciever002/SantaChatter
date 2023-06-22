@@ -1,0 +1,18 @@
+.chatContainer{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatCard{
+    display: flex;
+    height: 90%;
+    width: 80%;
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    border-radius: 0.2em;
+    box-shadow: 0.1em 0.1em 0.5em 0.5em gray;
+    overflow: hidden;
+}

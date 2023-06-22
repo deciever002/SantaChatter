@@ -1,0 +1,18 @@
+.loader{
+    margin: 0em 1em;
+    font-size: 1.5em;
+    color: rgb(72, 245, 72);
+    animation-iteration-count: infinite;
+    animation-name: loader;
+    animation-delay: 0s;
+    animation-duration: 1s;
+}
+
+@keyframes loader {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

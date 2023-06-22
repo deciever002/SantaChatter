@@ -1,0 +1,10 @@
+.messages{
+    height: calc(100% - (9em + 1px));
+    overflow: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+
+.messages::-webkit-scrollbar{
+    display: none;
+}

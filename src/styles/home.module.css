@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    justify-content: flex-start;
+    padding: 2em;
+    align-items: center;
+}
+.homeHeading{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+}
+.subHeading{
+    color: transparent;
+    background-image: linear-gradient(white,orange);
+    background-clip: text;
+}

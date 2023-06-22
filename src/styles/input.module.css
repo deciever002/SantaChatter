@@ -1,0 +1,58 @@
+.inputMessage{
+    padding: 0em 1em;
+    display: flex;
+    height: 5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 1em;
+    border-radius: 0.4em;
+}
+
+.attachIcon{
+    cursor: pointer;
+    color: gray;
+    rotate: -45deg;
+    margin-top: 3px;
+    margin-right: 3px;
+    font-size: 1.3em;
+}
+
+.inputChat{
+    width: 70%;
+    border: none;
+    font-size: 1em;
+}
+
+.inputChat:focus{
+    outline: none;
+}
+
+.emojiPickerBtn{
+    cursor: pointer;
+    font-size: 1em;
+    border: none;
+    background-color: transparent;
+}
+
+.sendMessageBtn{
+    cursor: pointer;
+    width: 5em;
+    padding: 0.5em;
+    background-color: black;
+    font-weight: 500;
+    border-radius: 0.3em;
+    border: none;
+    color: white;
+}
+
+.emojiPicker{
+    position: absolute;
+    bottom: 3em;
+}

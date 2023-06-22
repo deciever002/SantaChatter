@@ -1,0 +1,62 @@
+.conversationContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0em 1em;
+}
+
+.addIcon{
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 0.3em;
+}
+.addIcon:hover{
+    cursor: pointer;
+    color: rgb(102, 102, 102);
+}
+
+.users{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.userContainer{
+    height: 4em;
+    display: flex;
+    padding: 0em 0.5em;
+    width: 100%;
+    align-items: center;
+    gap: 1em;
+    border-radius: 0.3em;
+}
+
+.userContainer:hover{
+    cursor: pointer;
+    border: 2px solid rgb(241, 241, 241);
+    background-color: black;
+    color: white;
+}
+
+.userContainer img{
+    height: 2.5em;
+    border: 1px solid gray;
+    width: 2.5em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userInfo{
+    display: flex;
+    height: 2.5em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userInfo h3,p{
+    margin: 0;
+}
+
+.userInfo p{
+    font-size: 0.7em;
+}

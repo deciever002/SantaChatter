@@ -1,0 +1,40 @@
+nav{
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+
+.brandName{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.7em;
+    background-image: linear-gradient(to right, rgb(249, 8, 8), rgb(247, 128, 95));
+}
+
+.brandContainer{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    white-space: nowrap;
+}
+
+
+.brandLogo{
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.links > a {
+    text-decoration: none;
+    font-weight: 900;
+    color: yellow;
+}

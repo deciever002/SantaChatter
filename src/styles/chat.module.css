@@ -1,0 +1,32 @@
+.chat{
+    flex: 2;
+    flex-direction: column;
+}
+
+.chatBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 1em;
+    align-items: center;
+    border-bottom: 1px solid rgb(208, 207, 207);
+    height: 4em;
+}
+
+.chatNames{
+    display: flex;
+    font-weight: bold;
+}
+
+.chatBar img{
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.addUser{
+    background-color: black;
+    color: white;
+    padding: 0.6em;
+    border-radius: 50%;
+}

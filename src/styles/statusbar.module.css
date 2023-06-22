@@ -1,0 +1,34 @@
+.statusBar{
+    width: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    gap:0.3em;
+}
+.userIcon{
+    border-radius: 50%;
+    border: 3px solid rgb(156, 245, 222);;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.logoutBtn{
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: yellow;
+    font-weight: 800;
+}
+
+.logoutBtn:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 0,0.8);
+}

@@ -1,0 +1,121 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+}
+
+.pageTitle{
+    text-align: center;
+    color: rgb(243, 156, 156);
+    font-size: 2em;
+}
+
+.formWrapper{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0.1em 0.1em 0.5em 0.5em gray;
+}
+.hat{
+    position: absolute;
+    top:-2em;
+    left: -2em;
+    height: 3em;
+    width: 3em;
+    rotate: -30deg;
+    transform: scale(1.8);
+}
+
+.form{
+    margin-top: 1em;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.formIcons{
+    height: 1.8em;
+    width: 1.9em;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.formGroup label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    font-weight: 600;
+    gap:0.6em
+}
+
+.formGroup input{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgb(243, 156, 156);
+}
+
+.formGroup input[type=file]{
+    width: 350px;
+    max-width: 100%;
+    color: #444;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #555;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: rgb(0, 22, 79);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: rgba(2, 27, 97,0.6);
+}
+
+.formGroup input:focus{
+    outline: none;
+}
+
+.btn{
+    width: 40%;
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 auto;
+    padding:1em;
+    border: none;
+    border-radius: 1em;
+    color: black;
+    background-color: rgb(243, 156, 156);
+    font-weight: 900;
+}
+
+.loadingBtn{
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(243, 156, 156,0.6);
+}
