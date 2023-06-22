@@ -24,15 +24,15 @@ Step 4: Go to the link provided in console to see your application running on th
 
 # Folder Structure
 
--> src
-    -> assets (static images)
-    -> components (all different components implemented)
-    -> context (authentication context and chat context)
-    -> pages 
-    -> style (used module to style different component)
-App.js 
-firebase.js (Firebase config)
-index.js (Entry point)
+-> src <br />
+    -> assets (static images) <br />
+    -> components (all different components implemented) <br />
+    -> context (authentication context and chat context) <br />
+    -> pages <br />
+    -> style (used module to style different component) <br />
+App.js <br />
+firebase.js (Firebase config) <br />
+index.js (Entry point) <br />
 
 
 You can find all the 
