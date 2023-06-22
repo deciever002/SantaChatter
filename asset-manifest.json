@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SantaChatter/static/css/main.6364d08a.css",
-    "main.js": "/SantaChatter/static/js/main.51d1843f.js",
+    "main.css": "/SantaChatter/static/css/main.a74a5f0f.css",
+    "main.js": "/SantaChatter/static/js/main.a42ee422.js",
     "static/media/bg.jpeg": "/SantaChatter/static/media/bg.b35f60c9eeee368fd7c9.jpeg",
     "static/media/santa-hat.webp": "/SantaChatter/static/media/santa-hat.44a1f531a09eef2330a3.webp",
     "static/media/homeAsset.gif": "/SantaChatter/static/media/homeAsset.fc5e8f17f9907d5b1621.gif",
@@ -11,11 +11,11 @@
     "static/media/emailIcon.png": "/SantaChatter/static/media/emailIcon.5c84a97c86b44b2983a2.png",
     "static/media/passwordIcon.png": "/SantaChatter/static/media/passwordIcon.9791966029493d66df00.png",
     "index.html": "/SantaChatter/index.html",
-    "main.6364d08a.css.map": "/SantaChatter/static/css/main.6364d08a.css.map",
-    "main.51d1843f.js.map": "/SantaChatter/static/js/main.51d1843f.js.map"
+    "main.a74a5f0f.css.map": "/SantaChatter/static/css/main.a74a5f0f.css.map",
+    "main.a42ee422.js.map": "/SantaChatter/static/js/main.a42ee422.js.map"
   },
   "entrypoints": [
-    "static/css/main.6364d08a.css",
-    "static/js/main.51d1843f.js"
+    "static/css/main.a74a5f0f.css",
+    "static/js/main.a42ee422.js"
   ]
 }
