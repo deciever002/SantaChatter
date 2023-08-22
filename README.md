@@ -5,10 +5,11 @@ Welcome to the documentation for the Private Christmas Chat Application! This ap
 Live at: https://deciever002.github.io/SantaChatter/
 
 Snapshots:
-<img width="1440" alt="Screenshot 2023-08-22 at 1 43 02 PM" src="https://github.com/deciever002/SantaChatter/assets/112121338/005d32ef-7ddb-4585-919d-5077d0d616ea">
-<img width="1440" alt="Screenshot 2023-08-22 at 1 42 44 PM" src="https://github.com/deciever002/SantaChatter/assets/112121338/dd987af5-9dac-484f-96d4-ea9820be75eb">
 
+<img width="1440" alt="Screenshot 2023-08-22 at 1 42 44 PM" src="https://github.com/deciever002/SantaChatter/assets/112121338/dd987af5-9dac-484f-96d4-ea9820be75eb">
 <img width="1440" alt="Screenshot 2023-08-22 at 1 42 28 PM" src="https://github.com/deciever002/SantaChatter/assets/112121338/8205974e-1837-4cff-9aa3-1e2410c6f68a">
+<img width="1440" alt="Screenshot 2023-08-22 at 1 43 02 PM" src="https://github.com/deciever002/SantaChatter/assets/112121338/005d32ef-7ddb-4585-919d-5077d0d616ea">
+
 
 
 ## Table of Contents
